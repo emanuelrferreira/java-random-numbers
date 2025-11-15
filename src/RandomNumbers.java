@@ -21,7 +21,7 @@ public class RandomNumbers {
         mean=0.0;
     }
 
-    // method to fill array with random integers between 1 and 100
+    // fill the array with random values between 1 and 100
     public void generateNumbers(){
         Random rand = new Random();
         for(int i=0; i<numbers.length; i++){
