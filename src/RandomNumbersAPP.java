@@ -15,6 +15,6 @@ public class RandomNumbersAPP {
         //output
         rn.printArray();;
         System.out.println("Total sum of all numbers: "+rn.getSum());
-        System.out.println("Average (mean) value: "+rn.getMean());
+        System.out.println("Average (mean) of generated numbers: " + rn.getMean());
     }
 }
